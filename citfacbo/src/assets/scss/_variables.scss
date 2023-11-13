@@ -1,0 +1,41 @@
+/**
+ * SPDX-License-Identifier: EUPL-1.2
+ * Copyright CSI Piemonte - 2023
+ */
+
+$font-family-serif: 'Lora', Georgia, serif !default;
+$font-family-sans-serif: 'Titillium Web', Geneva, Tahoma, sans-serif !default;
+$font-family-monospace: 'Roboto Mono', monospace !default;
+$font-family-base: $font-family-sans-serif;
+$breakpoint-xxl: 1400px;
+$breakpoint-xl: 1200px;
+$breakpoint-lg: 992px;
+$breakpoint-md: 768px;
+$breakpoint-sm: 576px;
+$primary: #007a52 !default;
+$secondary: #00402b !default;
+$footer: #202a2e ;
+$light: #e3e4e6 !default;
+$focus: #80bda9 !default;
+$danger: #dc3545 !default;
+$gray:  #adb5bd !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$custom-colors: (
+  'footer': $footer,
+  'focus': $focus,
+);
+
+
+
+
+
+

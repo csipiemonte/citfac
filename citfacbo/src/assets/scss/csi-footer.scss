@@ -1,0 +1,66 @@
+/**
+ * SPDX-License-Identifier: EUPL-1.2
+ * Copyright CSI Piemonte - 2023
+ */
+
+.csi-footer {
+    bottom: 0;
+    font-size: 16px;
+    background-color: $footer;
+    .footer-logo-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      @media (min-width: $breakpoint-sm) {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    }
+    .footer-brand-wrapper {
+      a {
+        display: flex;
+        color: #fff;
+        align-items: center;
+        text-decoration: none;
+      }
+      .brand-icon {
+        fill: #fff;
+        width: 48px;
+        height: 48px;
+        margin-right: 8px;
+        flex-shrink: 0;
+      }
+      .brand-title {
+        font-size: 1.25em;
+        margin-bottom: 0;
+        font-weight: 600;
+        letter-spacing: unset;
+        line-height: 1.1;
+      }
+    }
+    .footer-actions-wrapper {
+      padding-bottom: 8px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      .action {
+        padding: 4px 0px;
+        flex: 0 0 auto;
+        width: 100%;
+        @media (min-width: $breakpoint-md) {
+          padding: 8px;
+          width: auto;
+        }
+        a {
+          color: #fff;
+          &:hover{
+              text-decoration: none;
+          }
+        }
+      }
+    }
+  
+  }

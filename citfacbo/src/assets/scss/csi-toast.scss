@@ -1,0 +1,83 @@
+/**
+ * SPDX-License-Identifier: EUPL-1.2
+ * Copyright CSI Piemonte - 2023
+ */
+
+.notification-toast {
+  display: block !important;
+  &.csi-toast {
+    background-color: #fff;
+    border-width: 4px 0 0 0;
+    border-style: solid;
+    padding-bottom: 1rem;
+    @media (min-width: $breakpoint-sm) {
+      border-left: 4px solid #fff;
+      border-top: none;
+    }
+    .toast-header {
+      flex-direction: row;
+      text-align: left;
+      margin: 0px;
+      border: none;
+      h3 {
+        margin: 0;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        line-height: 1rem;
+        color: #000;
+        font-weight: 700;
+      }
+      .btn-close {
+        margin: 0;
+      }
+    }
+    .toast-body {
+      margin: 0rem;
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+      padding: 0.5rem 1rem;
+    }
+
+    &__success {
+      .toast-header {
+        .notify-icon {
+          path {
+            fill: var(--bs-success);
+          }
+        }
+      }
+      border-color: var(--bs-success) !important;
+    }
+    &__info {
+      .toast-header {
+        .notify-icon {
+          path {
+            fill: var(--bs-info);
+          }
+        }
+      }
+      border-color: var(--bs-info) !important;
+    }
+    &__warning {
+      .toast-header {
+        .notify-icon {
+          path {
+            fill: var(--bs-warning);
+          }
+        }
+      }
+      border-color: var(--bs-warning) !important;
+    }
+    &__error {
+      .toast-header {
+        .notify-icon {
+          path {
+            fill: var(--bs-danger);
+          }
+        }
+      }
+      border-color: var(--bs-danger) !important;
+    }
+  }
+}
