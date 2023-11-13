@@ -22,21 +22,15 @@ I template con cui è realizzata la piattaforma utilizzano i font dello UI Kit d
 Tutti questi typeface sono rilasciati con licenza SIL Open Font License e sono scaricabili gratuitamente.
 
 
-
-
-
-
-
-
 # Getting Started
 
 Città Facile è costituito dai seguenti componenti:
-- [BFF]
-- [PWA]
-- [BACKOFFICE]
+- Front-End https://github.com/csipiemonte/citfac/tree/main/citfacfe
+- Back-Office https://github.com/csipiemonte/citfac/tree/main/citfacbo
+- Back-End https://github.com/csipiemonte/citfac/tree/main/citfacbe
 
 # Prerequisites
-I prerequisiti per l'installazione dell'applicativo sono i seguenti:
+Si rimanda ai file README.md dei singoli componenti per i dettagli specifici.
 
 ## Software
 Si rimanda ai file README.md dei singoli componenti per i dettagli specifici.
@@ -54,7 +48,7 @@ Per la gestione del codice sorgente viene utilizzata la metodologia [Semantic Ve
 Gli autori sono indicati nei file Authors.txt
 
 # Copyrights
-(C) Copyright 2020 CSI Piemonte
+(C) Copyright 2023 CSI Piemonte
 
 # License
 Consulta il file [LICENSE.txt] per i dettagli sulla licenza.
